@@ -1,5 +1,5 @@
 public class Book extends TangibleAsset{
-  private String number;
+  private String isbn;
   public Book(String name,int price,Stirng color,String isbn){
 	  super (name,price,color);
 	  this.isbn = isbn;
